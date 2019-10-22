@@ -4,7 +4,8 @@
   "description": "A bunch of utils for ReactJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "hot-test": "nodemon --exec 'npm test'"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/LuisGilGB/react-utils/issues"
   },
-  "homepage": "https://github.com/LuisGilGB/react-utils#readme"
+  "homepage": "https://github.com/LuisGilGB/react-utils#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nodemon": "^1.19.4"
+  }
 }
