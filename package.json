@@ -1,0 +1,25 @@
+{
+  "name": "@luisgilgb/react-utils",
+  "version": "0.1.0",
+  "description": "A bunch of utils for ReactJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGilGB/react-utils.git"
+  },
+  "keywords": [
+    "React",
+    "ReactJS",
+    "utils",
+    "JavaScript"
+  ],
+  "author": "Luis Gil Gutiérrez de la Barreda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuisGilGB/react-utils/issues"
+  },
+  "homepage": "https://github.com/LuisGilGB/react-utils#readme"
+}
