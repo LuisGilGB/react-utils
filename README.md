@@ -2,6 +2,8 @@
 
 A bunch of utils for ReactJS.
 
+These module is NOT for React components, but native JavaScript content (such as functions or constants) whose aim is to help ReactJS developers (initialize, avoid repetitive tasks, optimize, etc.).
+
 ## Getting Started
 
 These instructions will let you use these utils in your application.
