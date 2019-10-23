@@ -11,6 +11,9 @@
     "build": "npm install && webpack --mode production",
     "publish-pro": "npm run build && npm publish --access public"
   },
+  "files": [
+    "/dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LuisGilGB/react-utils.git"
