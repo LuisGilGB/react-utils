@@ -1,6 +1,11 @@
 const {expect} = require('chai');
 const {default: {classNamer}} = require('../../dist/index');
 
-it("Basic classNamer test", () => {
-    expect(classNamer('defaultClassName', 'customClassName')).to.eql('defaultClassName customClassName');
+describe("Basic classNamer tests", () => {
+    it("2 inputs test", () => {
+        expect(classNamer('default-classname', 'custom-classname')).to.eql('default-classname custom-classname');
+    });
+    it("3 inputs test", () => {
+        expect(classNamer('default-classname', 'custom-classname', 'status-classname')).to.eql('default-classname custom-classname status-classname');
+    });
 });
