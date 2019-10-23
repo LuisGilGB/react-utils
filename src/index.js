@@ -1,5 +1,5 @@
 import functions from './functions';
 
-export {
+export default {
     ...functions
 }

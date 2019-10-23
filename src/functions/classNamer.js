@@ -3,4 +3,4 @@
  */
 const classNamer = (...classNames) => classNames.reduce((temp, s) => `${temp} ${s}`.trim(), '');
 
-module.exports = classNamer;
+export default classNamer;
