@@ -1,5 +1,1 @@
-import classNamer from './classNamer';
-
-export default {
-    classNamer
-}
+export { default as classNamer } from './classNamer';
