@@ -1,5 +1,5 @@
 const {expect} = require('chai');
-const {default: {classNamer}} = require('../../dist/index');
+const {classNamer} = require('../../dist/index');
 
 describe("Basic classNamer tests", () => {
     it("2 inputs test", () => {
