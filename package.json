@@ -8,7 +8,7 @@
     "hot-test": "nodemon --exec 'npm test'",
     "build-dev": "webpack --mode development",
     "build-dev-watch": "webpack --mode development --watch",
-    "build": "npm install && webpack --mode production",
+    "build": "webpack --mode production",
     "ibuild": "npm install && npm run build",
     "publish-pro": "npm run ibuild && npm publish --access public"
   },
