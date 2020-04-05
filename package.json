@@ -1,6 +1,6 @@
 {
   "name": "@luisgilgb/react-utils",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A bunch of utils for ReactJS.",
   "main": "dist/index.js",
   "scripts": {
