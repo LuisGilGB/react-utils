@@ -1,5 +1,14 @@
 /*
  * A function that joins different strings to form a single one that will be the final className.
+ * 
+ * Additional classNames can be added conditionally by passing an object with the following structure
+ * as a param:
+ *  {
+ *      className: 'classToAdd',
+ *      check: statementThatReturnsTrueOrFalse
+ *  }
+ * Being className the key for the className to add to the return value and check a boolean that
+ * indicates if the className will be added (check: true) or not (check: false).
  */
 import {isObject, isNonEmptyString} from '@luisgilgb/js-utils';
 
