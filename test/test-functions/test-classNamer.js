@@ -42,3 +42,29 @@ describe("Skip falses tests", () => {
         expect(classNamer('default-classname', false, 'status-classname')).to.eql('default-classname status-classname');
     });
 });
+describe("ClassNamer with params for conditional adding tests", () => {
+    it("2 inputs test with falsy check", () => {
+        expect(classNamer('default-classname', {
+            className: 'conditional-classname',
+            check: false
+        })).to.eql('default-classname');
+    });
+    it("3 inputs test with falsy check", () => {
+        expect(classNamer('default-classname', {
+            className: 'conditional-classname',
+            check: false
+        }, 'status-classname')).to.eql('default-classname status-classname');
+    });
+    it("2 inputs test with truthy check", () => {
+        expect(classNamer('default-classname', {
+            className: 'conditional-classname',
+            check: true
+        })).to.eql('default-classname conditional-classname');
+    });
+    it("3 inputs test with truthy check", () => {
+        expect(classNamer('default-classname', {
+            className: 'conditional-classname',
+            check: true
+        }, 'status-classname')).to.eql('default-classname conditional-classname status-classname');
+    });
+});
