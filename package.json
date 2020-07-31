@@ -1,6 +1,6 @@
 {
   "name": "@luisgilgb/react-utils",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "A bunch of utils for ReactJS.",
   "main": "dist/index.js",
   "scripts": {
@@ -32,14 +32,14 @@
   },
   "homepage": "https://github.com/LuisGilGB/react-utils#readme",
   "devDependencies": {
-    "@babel/core": "^7.6.4",
-    "@babel/preset-env": "^7.6.3",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
     "chai": "^4.2.0",
-    "mocha": "^7.1.1",
-    "nodemon": "^1.19.4",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.9"
+    "mocha": "^8.1.0",
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   },
   "dependencies": {
     "@luisgilgb/js-utils": "^0.3.2"
