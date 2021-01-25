@@ -32,16 +32,17 @@
   },
   "homepage": "https://github.com/LuisGilGB/react-utils#readme",
   "devDependencies": {
-    "@babel/core": "^7.11.0",
-    "@babel/preset-env": "^7.11.0",
-    "babel-loader": "^8.1.0",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
     "chai": "^4.2.0",
-    "mocha": "^8.1.0",
-    "nodemon": "^2.0.4",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.7",
+    "react": "^17.0.1",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
   },
   "dependencies": {
-    "@luisgilgb/js-utils": "^0.3.2"
+    "@luisgilgb/js-utils": "^0.4.0"
   }
 }
